@@ -1,0 +1,759 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.body
+{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container
+{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 ;
+    /*opacity: 1;
+    position: fixed;
+    z-index: 1;*/
+
+}
+
+.header
+{
+    padding-top: 50px ;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    animation: 2s forwards;
+}
+.header-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.header-nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.logo
+{
+    max-width: 100%;
+}
+.pic1{
+    margin-top: 100px;
+    width: 1500px;
+    height: 850px; 
+}
+
+
+.nav-list
+{
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-link
+{
+    color: #000;
+}
+
+.image-container 
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.Woop
+{
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* определите количество и ширину колонок сетки */
+    grid-template-rows: repeat(3, 1fr); /* определите количество и высоту строк сетки */
+    gap: 10px; /* определите промежуток между ячейками сетки */
+    /*background-color: rgba(0, 0, 0, 0.5);  установите цвет фона сетки */
+    justify-items: center;
+    z-index: 1; /* установите значение Z-Index, чтобы сетка была поверх изображения */
+}
+  
+.woop_1
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+.woop_2
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+.woop_3
+{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.Toop
+{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 120px;
+}
+.woop_3:hover
+{
+    background-color: #fdc657;
+    transition: 2s;
+}
+.foop_7:hover
+{
+    background-color: #fdc657;
+    transition: 2s; 
+}
+.toop
+{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* определите количество и ширину колонок сетки */
+    grid-template-rows: repeat(3, 1fr); /* определите количество и высоту строк сетки */
+    gap: 10px; /* определите промежуток между ячейками сетки */
+    /*background-color: rgba(0, 0, 0, 0.5);  установите цвет фона сетки */
+    justify-items: center;
+}
+.toop_1
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+.toop_2
+{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+}
+
+.toop_3
+{
+    width: 70px;
+    height: 1px;
+    background-color: #fdc657;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.Foop
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foop
+{
+    width: 1230px;
+    height: 650px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr ); /* определите количество и ширину колонок сетки */
+    grid-template-rows: minmax(10px, auto); /* определите количество и высоту строк сетки */
+    gap: 10px; /* определите промежуток между ячейками сетки */
+    align-items: center;
+    /*background-color: rgba(0, 0, 0, 0.5);  установите цвет фона сетки */
+    justify-items: center;
+    align-content: center
+}
+
+.fooop1
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 450px;
+}
+
+.foop_1
+{
+    text-align: center;
+    font-size: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.foop_4
+{
+    
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+    margin-top: 20px;
+}
+
+.foop_7
+{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black ;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.fooop2
+{
+    margin-left: 45px;
+}
+
+.fooop3
+{
+    margin-right: 105px;
+}
+
+.foop_5
+{
+    margin-top: 20px;
+}
+.foop_6
+{
+    margin-top: 20px;
+}
+.image-container_2
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic_2{
+    
+    width: 1500px;
+    height: 700px; 
+    
+}
+
+.Poop
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    margin-left: 450px;
+    /*background-color: rgba(0, 0, 0, 0.5);  установите цвет фона сетки */
+    justify-items: center;
+    z-index: 1; /* установите значение Z-Index, чтобы сетка была поверх изображения */
+}
+
+.circle 
+{
+    width: 100px;
+    height: 100px;
+    border: solid black; 
+    border-radius: 50%;     /*<div class="circle"></div>*/
+}
+
+.Poop1
+{
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* одна колонка */
+    grid-template-rows:1fr ; /* три строки */
+    gap: 10px; /* определите промежуток между ячейками сетки */
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.poop
+{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr; /* одна колонка */
+    grid-template-rows: repeat(3, 1fr); /* три строки */
+    gap: 50px; /* определите промежуток между ячейками сетки */
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    /*background-color: rgba(154, 112, 112, 0.5);  установите цвет фона сетки */
+}
+
+
+.grid-container 
+{
+  width: 900px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* два столбца равной ширины */
+  grid-template-rows: repeat(3, 1fr); /* три строки равной высоты */
+  grid-gap: 10px; /* промежутки между элементами */
+}
+
+.grid-item 
+{
+  /*background-color: #ccc;*/
+  padding: 15px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(1, 400px); /* один столбец равной ширины */
+  grid-template-rows: repeat(3, 60px); /* три строки равной высоты */
+  align-items: center;
+  justify-items: start;
+}
+
+.item
+{
+    padding: 5px;
+    text-align: center;  
+}
+.item_1
+{
+    padding: 5px;
+    text-align: center; 
+    font-size: 17px; 
+}
+.item_2
+{
+    padding: 5px;
+    font-size: 17px;
+    color: rgb(78, 78, 78);
+    text-align: left;
+}
+.item_3
+{
+    padding: 5px;
+    text-align: center; 
+    font-size: 17px; 
+}
+.circle 
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 170px;
+}
+.circle_3 
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 165px;
+}
+.circle_5 
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+
+.Qoop
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qoop
+{
+    width: 1230px;
+    height: 650px;
+    position: absolute;
+    align-items: center;
+    
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: auto auto auto auto; 
+    align-items: start; 
+    gap: 10px; 
+}
+.qoop-container {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    gap: 5px;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 700px;
+    height: 200px;
+}
+.qoop-item {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+  .image {
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+  .image_1 {
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+
+  .rip
+  {
+    font-size: 40px;
+  }
+  .rip2
+  {
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+  }
+  .pic_3
+{
+    width: 1500px;
+    height: 600px; 
+}
+
+.Hoop
+{
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* определите количество и ширину колонок сетки */
+    grid-template-rows: repeat(3, 1fr); /* определите количество и высоту строк сетки */
+    gap: 10px; /* определите промежуток между ячейками сетки */
+    /*background-color: rgba(0, 0, 0, 0.5);  установите цвет фона сетки */
+    justify-items: center;
+    z-index: 1; /* установите значение Z-Index, чтобы сетка была поверх изображения */
+    margin-left: -800px;
+}
+  
+.hoop_1
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+.koop
+{
+    width: 1230px;
+    height: 650px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr ); /* определите количество и ширину колонок сетки */
+    grid-template-rows: repeat(2, 1fr ); /* определите количество и высоту строк сетки */
+    gap: 10px; /* определите промежуток между ячейками сетки */
+    align-items: center;
+    /*background-color: rgba(0, 0, 0, 0.5);  установите цвет фона сетки */
+    justify-items: center;
+    align-content: center
+}
+
+.pic5
+{
+    width: 400px;
+    height: 340px;
+}
+
+.koop4
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 400px;
+}
+
+.koop_1
+{
+    padding: 5px;
+    text-align: center; 
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.koop_2
+{
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+}
+.koop_3
+{
+    padding: 5px;
+    text-align: center; 
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.Voop
+{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 120px;
+    align-content: center;
+    flex-direction: row-reverse;
+}
+.image-container_3
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.pic_4
+{
+    width: 1500px;
+    height: 650px; 
+    background-attachment: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.loop
+{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* определите количество и ширину колонок сетки */
+    grid-template-rows: repeat(3, 1fr); /* определите количество и высоту строк сетки */
+    gap: 10px; /* определите промежуток между ячейками сетки */
+    /*background-color: rgba(0, 0, 0, 0.5);  установите цвет фона сетки */
+    justify-items: start;
+    
+}
+ 
+
+.loop_1
+{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.loop_2
+{
+    text-align: start;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.loop_3
+{
+    width: 70px;
+    height: 1px;
+    background-color: #fdc657;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.loop_1_
+{
+    text-align: center;
+    font-size: 17px;
+    color: rgb(189, 184, 184);
+    margin-left: 20px;
+}
+
+.Zoop
+{
+    position: relative;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zoop
+{
+    position: absolute;
+    width: 800px;
+    height: 110px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* определите количество и ширину колонок сетки */
+    /*background-color: rgba(0, 0, 0, 0.5);  установите цвет фона сетки */
+    justify-items: start;
+    margin-bottom: 10px;
+}
+.pic_5
+{
+    margin-top: 35px;
+}
+.Soop
+{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222222;
+}
+.soop
+{
+    position: absolute;
+    width: 1230px;
+    height: 370px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* определите количество и ширину колонок сетки */
+    /*background-color: rgba(0, 0, 0, 0.5); установите цвет фона сетки */
+    justify-items: start;
+    margin-bottom: 14px;
+}
+
+.Boop
+{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333333; 
+    margin: 0;
+
+}
+.boop
+{
+    position: absolute;
+    width: 1230px;
+    height: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* определите количество и ширину колонок сетки */
+    /*background-color: rgba(0, 0, 0, 0.5); установите цвет фона сетки */
+    justify-items: center;
+}
+.boop_1
+{
+    text-align: center;
+    font-size: 14px;
+    color:  rgb(255, 255, 255);
+}
+.pic_6
+{
+    height: 35px;
+    justify-content: flex-end;
+}
+.booop2
+{
+    display: flex;
+    justify-content: flex-end;
+}
+@keyframes header {
+    0% {transform: translateY(-150%);}
+    100% {transform: translateY(0);}
+  }
+
+  @media (max-width: 768px) {
+    .zoop, .soop, .boop {
+      width: 600px; 
+    }
+  
+    .soop, .boop {
+      height: auto; 
+    }
+  
+    .boop {
+      height: auto;
+    }
+  
+    .boop .boop_1, .soop .soop_1 {
+      font-size: 12px; 
+    }
+  
+    
+    .zoop .zoop, .soop .soop, .boop .boop {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Адаптивность для мобильных телефонов */
+  @media (max-width: 480px) {
+    .zoop, .soop, .boop {
+      width: 100%; 
+    }
+  
+    .zoop .zoop, .soop .soop, .boop .boop {
+      width: 100%;
+      padding: 0 20px; 
+      grid-template-columns: 1fr; 
+    }
+  
+    .boop .boop_1, .soop .soop_1 {
+      font-size: 10px; 
+    }
+  }
